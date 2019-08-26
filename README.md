@@ -7,16 +7,11 @@
 
 ```javascript
 const push = PushNotification.init({
-  android: {},
-  browser: {
-    pushServiceURL: 'http://push.api.phonegap.com/v1/push'
-  },
   ios: {
     alert: 'true',
     badge: true,
     sound: 'false'
-  },
-  windows: {}
+  }
 });
 ```
 
